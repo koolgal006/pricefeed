@@ -22,6 +22,12 @@ $ npm install
 
 Update the config.json file with your witness account name and private active key as described in the Configuration section below. Alternative, you can set account and private key in environment variables. 
 
+## Run in Node
+
+```
+$ node feed.js
+```
+
 ### Run in background with PM2
 I suggest using the PM2 software to manage and run your nodejs programs in the background. Use the following commands to install PM2 and run the pricefeed program:
 
