@@ -1,15 +1,11 @@
 {
   "rpc_nodes": [
-    "https://api.steemit.com",
-    "https://api.steemzzang.com",
-    "https://api.steem-fanbase.com",
-    "https://api.steemitdev.com",
-    "https://steem.ecosynthesizer.com",
-    "https://api.justyy.com",
-    "https://api.wherein.io",
-    "https://steem.justyy.workers.dev",
-    "https://justyy.azurewebsites.net/api/steem",
+    "https://steemd.steemworld.org",
     "https://api.dlike.io",
+    "https://api.steem-fanbase.com",
+    "https://api.campingclub.me",
+    "https://steemyy.com/node/",
+    "https://api.justyy.com",
     "https://steemapi.boylikegirl.club"
   ],
   "feed_steem_account": "",
