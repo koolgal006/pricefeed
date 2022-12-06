@@ -5,18 +5,18 @@
   "main": "feed.js",
   "scripts": {
     "test": "node errorcheck.js startProcess",
-    "start": "node feed.js startProcess"
+    "start": "node feed.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MattyIce/pricefeed.git"
+    "url": "git+https://github.com/koolgal006/pricefeed.git"
   },
   "author": "yabapmatt",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MattyIce/pricefeed/issues"
+    "url": "https://github.com/koolgal006/pricefeed/issues"
   },
-  "homepage": "https://github.com/MattyIce/pricefeed#readme",
+  "homepage": "https://github.com/koolgal006/pricefeed#readme",
   "dependencies": {
     "request": "^2.83.0",
     "steem": "^0.7.1"
