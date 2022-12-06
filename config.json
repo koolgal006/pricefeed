@@ -1,10 +1,10 @@
 {
   "rpc_nodes": [
-    "https://steemd.steemworld.org",
-    "https://api.dlike.io",
     "https://api.steem-fanbase.com",
+    "https://steem.61bts.com",
+    "https://api.dlike.io",
     "https://api.campingclub.me",
-    "https://steemyy.com/node/",
+    "https://steemd.steemworld.org",
     "https://api.justyy.com",
     "https://steemapi.boylikegirl.club"
   ],
