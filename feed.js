@@ -118,9 +118,9 @@ function publishFeed(price, retries) {
       setTimeout(function () { 
         publishFeed(price, retries + 1);
       }, config.retry_interval * 1000);
+      await sleep(1800000); // sleep for 30 minutes 
     }
   });
- await sleep(1800000); // sleep for 30 minutes 
 }
 
 function loadPriceCoinMarketCap(callback, retries) {
