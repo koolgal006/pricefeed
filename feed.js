@@ -94,7 +94,9 @@ function startProcess() {
     log("Price = " + price);
     publishFeed(price, 0); 
   }, config.feed_publish_interval * 1000);
-  await sleep(1800000); // sleep for 30 minutes 
+  setTimeout(function() {
+    console.log('Wait for 30 minutes for next ...');
+}, 1800000);
 }
 
 function publishFeed(price, retries) {
