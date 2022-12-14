@@ -1,6 +1,7 @@
 const fs = require("fs");
 const steem = require('steem');
 const request = require("request");
+const sleep = (waitTimeInMs) => new Promise(resolve => setTimeout(resolve, waitTimeInMs));
 
 var config = JSON.parse(fs.readFileSync("config.json"));
 
@@ -119,6 +120,7 @@ function publishFeed(price, retries) {
       }, config.retry_interval * 1000);
     }
   });
+ await sleep(1800000); // sleep for 30 minutes 
 }
 
 function loadPriceCoinMarketCap(callback, retries) {
